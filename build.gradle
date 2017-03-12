@@ -34,6 +34,6 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-jetty")
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile("org.springframework.boot:spring-boot-starter-security")
-    compile("org.projectlombok:lombok:1.16.14")
     testCompile("junit:junit")
+    compile('org.projectlombok:lombok')
 }
