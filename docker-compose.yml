@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+ java:
+  image: java/example
+  build:
+   context: .
+  ports:
+   - "8081:8080"
+
