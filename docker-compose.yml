@@ -6,5 +6,12 @@ services:
   build:
    context: .
   ports:
-   - "8081:8080"
+   - "8080:8080"
 
+  volumes:
+   - ./application:/application
+   - gradle:/root/.gradle
+   - gradle:/application/.gradle
+
+volumes:
+ gradle:

@@ -19,11 +19,11 @@ RUN set -x \
 
 RUN apk update && apk add bash libstdc++ && rm -rf /var/cache/apk/*
 
-WORKDIR /application 
-ADD . /application
-
 VOLUME /root/.gradle
+VOLUME /application
 VOLUME /application/build
 VOLUME /application/.gradle
+
+WORKDIR /application 
 
 CMD ["gradle","bootRun"]
