@@ -1,6 +1,6 @@
 # java-docker-example
 
-Contains all the parts to start the most simple Spring Boot Application ever in a docker container. Your task is to clone this repo and add new functionality. 
+Contains all the parts to start a simple Spring Boot Application to be used as a stub for your own projects. Clone or copy this repo and add new functionality. 
 
 ## Usage
 
