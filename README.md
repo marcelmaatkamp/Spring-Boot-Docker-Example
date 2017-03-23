@@ -11,4 +11,12 @@ It will start a docker container 'lwieske/java-8:jdk-8u121-slim' and add gradle 
 docker-compose up --build
 ```
 
+## Todo
+
+ - The option `org.gradle.daemon=true` will not work anymore
+ - check if pushing an image to the docker hub works 
+ - add a webserver example (maybe that should be a seperate repository)
+ - jmx port open and show how to use it
+ - but meanwhile keep this example as simple as possible! ;)
+
 
